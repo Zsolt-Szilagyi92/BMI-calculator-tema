@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="index.js"></script>
+    <title>Exercises</title>
+</head>
+<body>
+    <label for="nev">Enter your name</label>
+    <input type="text" id="user_name"><br>
+    <label for="gender">Gender: </label>
+    <input type="radio" name="genderS" value="1" checked="checked">Male</input>
+    <input type="radio" name="genderS" value="0">Female</input><br>
+    <label for="Weight">Weight</label>
+    <input type="text" id="weight"><br>
+    <label for="Height">Height</label>
+    <input type="text" id="height"><br>   
+    <button type="button" id="bmi_btn" onclick="bmicalc(), empty_field()">Calculate Your BMI</button> <br>
+    <p id="texthere"></p>
+</body>
+</html>
